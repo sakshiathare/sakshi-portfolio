@@ -1,0 +1,28 @@
+<section class="about-section" @fadeIn>
+  <div class="container">
+    <div class="about-header">
+      <h2 class="section-title">About Me</h2>
+      <p class="about-intro">
+        I'm Sakshi Athare, a passionate Computer Science graduate focused on backend and frontend development.
+        I specialize in building scalable web applications using <strong>Java</strong>, <strong>Spring Boot</strong>, and <strong>Angular</strong>.
+        I'm currently pursuing my Masters in Computer Science and actively seeking an opportunity to grow as a software developer.
+      </p>
+      <p class="about-intro">
+        With hands-on experience in project development, internship work, and strong academic performance, I bring a strong foundation in programming and problem-solving.
+        I value teamwork, continuous learning, and building clean, user-friendly software.
+      </p>
+    </div>
+
+    <div class="education-section">
+      <h3 class="section-subtitle">Education</h3>
+      <div class="education-list">
+        <div class="edu-item" *ngFor="let edu of education">
+          <h4 class="edu-degree">{{ edu.degree }}</h4>
+          <p class="edu-institute">{{ edu.institute }}</p>
+          <p class="edu-university" *ngIf="edu.university">{{ edu.university }}</p>
+          <p class="edu-grade" *ngIf="edu.grade"><strong>Grade:</strong> {{ edu.grade }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,28 @@
+<section class="projects-section">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-grid">
+      <div class="project-card" *ngFor="let project of projects">
+        <h3>{{ project.title }}</h3>
+        <p class="description">{{ project.description }}</p>
+
+        <ul class="features">
+          <li *ngFor="let feat of project.features">• {{ feat }}</li>
+        </ul>
+
+        <div class="tech-stack">
+          <span *ngFor="let tech of project.techStack">{{ tech }}</span>
+        </div>
+
+        <div class="project-links">
+          <a *ngIf="project.github" [href]="project.github" target="_blank">
+            <i class="fab fa-github"></i> Code
+          </a>
+          <a *ngIf="project.liveDemo" [href]="project.liveDemo" target="_blank">
+            <i class="fas fa-external-link-alt"></i> Demo
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
