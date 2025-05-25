@@ -1,27 +1,105 @@
-# MyPortfolio
+# Sakshi Athare's Developer Portfolio 🚀
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+Welcome to my personal developer portfolio built with **Angular**. It showcases my skills, projects, education, and contact information in a clean, responsive format.
 
-## Development server
+ 🌐 Live Demo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+➡️ [Visit My Portfolio](https://your-username.github.io/portfolio/) *(Replace this with your deployed link)*
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ 📁 Table of Contents
 
-## Build
+- [About the Project](#about-the-project)
+- [Screenshots](#screenshots)
+- [Tech Stack](#tech-stack)
+- [Run Locally](#run-locally)
+- [Features](#features)
+- [Deployment](#deployment)
+- [Author](#author)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+ 📖 About the Project
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This is a personal portfolio website created using **Angular**, built to showcase my technical skills and development experience. It's fully responsive and includes animated transitions, modular components, and routing.
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+ 🖼️ Screenshots
 
-## Further help
+![Portfolio Screenshot](./src/assets/screenshot.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+ 🔧 Tech Stack
+
+- Frontend: Angular, HTML, SCSS, TypeScript, Bootstrap
+- Backend (for future integration): Spring Boot, Java
+- Database: MySQL (optional)
+- Tools: VS Code, Git, GitHub, Chrome DevTools
+
+---
+
+ ▶️ Run Locally
+
+1. Clone the project:
+
+```bash
+git clone https://github.com/sakshiathare/angular-portfolio.git
+cd angular-portfolio
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+ng serve
+```
+
+4. Visit [http://localhost:4200](http://localhost:4200)
+
+---
+ ✨ Features
+
+- Responsive UI
+- Animated transitions with Angular Animations
+- Modular components (Home, About, Skills, Projects, Contact)
+- Scroll-based navigation
+- Easy to customize
+
+---
+
+## 🚀 Deployment
+
+### Deploy on GitHub Pages
+
+```bash
+ng build --prod --base-href "https://your-username.github.io/portfolio/"
+npm install -g angular-cli-ghpages
+npx angular-cli-ghpages --dir=dist/your-app-name
+```
+
+Or Use:
+- [Netlify](https://netlify.com/)
+- [Firebase Hosting](https://firebase.google.com/)
+- [Vercel](https://vercel.com/)
+
+---
+
+ 👤 Author
+
+- Name: Sakshi Athare
+- Email: atharesakshi590@gmail.com
+- LinkedIn: [Sakshi's LinkedIn](https://linkedin.com/in/sakshi-athare-63b505268)
+- **GitHub:** [@sakshiathare](https://github.com/sakshiathare)
+
+---
+
+📝 License
+
+This project is open-source and free to use.
