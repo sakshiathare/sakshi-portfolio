@@ -4,7 +4,7 @@ Welcome to my personal developer portfolio built with **Angular**. It showcases 
 
  🌐 Live Demo
 
-➡️ [Visit My Portfolio](https://your-username.github.io/portfolio/) *(Replace this with your deployed link)*
+➡️ [Visit My Portfolio](https://your-username.github.io/portfolio/) 
 
 ---
 
