@@ -1,99 +1,106 @@
-# Sakshi Athare's Developer Portfolio 🚀
+# 🌟 Sakshi Athare - Developer Portfolio
 
-Welcome to my personal developer portfolio built with **Angular**. It showcases my skills, projects, education, and contact information in a clean, responsive format.
+This is my personal developer portfolio built using **Angular**. It highlights my skills, projects, education, and contact information in a responsive and modern layout.
 
- 📁 Table of Contents
+---
 
-- [About the Project](#about-the-project)
+## 🌐 Live Demo
+
+🚀 Coming soon at: [https://sakshiathare.github.io/sakshi-portfolio](https://sakshiathare.github.io/sakshi-portfolio)
+
+---
+
+## 📁 Table of Contents
+
+- [About](#about)
 - [Screenshots](#screenshots)
 - [Tech Stack](#tech-stack)
 - [Run Locally](#run-locally)
 - [Features](#features)
 - [Deployment](#deployment)
-- [Author](#author)
+- [Contact](#contact)
+- [License](#license)
 
 ---
 
- 📖 About the Project
+## 📖 About
 
-This is a personal portfolio website created using **Angular**, built to showcase my technical skills and development experience. It's fully responsive and includes animated transitions, modular components, and routing.
+This portfolio project showcases my:
+- Educational qualifications
+- Technical skills (Java, Spring Boot, Angular, MySQL)
+- Major projects like **Online Exam Portal** and **Prakruti Analysis**
+- Contact and social links
 
----
-
- 🖼️ Screenshots
-
-![Portfolio Screenshot](./src/assets/screenshot.png)
-
----
- 🔧 Tech Stack
-
-- Frontend: Angular, HTML, SCSS, TypeScript, Bootstrap
-- Backend (for future integration): Spring Boot, Java
-- Database: MySQL (optional)
-- Tools: VS Code, Git, GitHub, Chrome DevTools
+Built to reflect a strong frontend + backend skillset and UI/UX sense.
 
 ---
 
- ▶️ Run Locally
+## 🖼️ Screenshots
 
-1. Clone the project:
+> Add a screenshot under `src/assets/screenshot.png`
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: Angular, HTML5, SCSS, Bootstrap
+- **Backend**: Java, Spring Boot, Hibernate *(in projects)*
+- **Database**: MySQL
+- **Tools**: VS Code, Git, GitHub, Chrome DevTools
+
+---
+
+## ▶️ Run Locally
 
 ```bash
-git clone https://github.com/sakshiathare/angular-portfolio.git
-cd angular-portfolio
-```
+# Clone the repository
+git clone https://github.com/sakshiathare/sakshi-portfolio.git
+cd sakshi-portfolio
 
-2. Install dependencies:
-
-```bash
+# Install dependencies
 npm install
-```
 
-3. Start the development server:
-
-```bash
+# Start development server
 ng serve
-```
 
-4. Visit [http://localhost:4200](http://localhost:4200)
+# Open http://localhost:4200 in your browser
+```
 
 ---
- ✨ Features
 
-- Responsive UI
-- Animated transitions with Angular Animations
-- Modular components (Home, About, Skills, Projects, Contact)
-- Scroll-based navigation
-- Easy to customize
+## ✨ Features
+
+- 💻 Responsive layout with mobile-first design
+- 🎯 Navigation bar with animation
+- 🔧 Modular components: Hero, About, Skills, Projects, Contact
+- 📱 Hamburger menu for mobile
+- 🚀 Scroll animation and section-based navigation
 
 ---
 
 ## 🚀 Deployment
 
-### Deploy on GitHub Pages
+You can deploy this Angular project using:
+
+### 🔹 GitHub Pages
 
 ```bash
-ng build --prod --base-href "https://github.com/sakshiathare/sakshi-portfolio.git"
-npm install -g angular-cli-ghpages
+ng build --prod --base-href "https://sakshiathare.github.io/sakshi-portfolio/"
 npx angular-cli-ghpages --dir=dist/your-app-name
 ```
 
-Or Use:
+### 🔹 Or Use:
+
 - [Netlify](https://netlify.com/)
 - [Firebase Hosting](https://firebase.google.com/)
 - [Vercel](https://vercel.com/)
 
 ---
 
- 👤 Author
+## 📬 Contact
 
-- Name: Sakshi Athare
-- Email: atharesakshi590@gmail.com
-- LinkedIn: [Sakshi's LinkedIn](https://linkedin.com/in/sakshi-athare-63b505268)
-- **GitHub:** [@sakshiathare](https://github.com/sakshiathare)
+- 📧 Email: atharesakshi590@gmail.com
+- 💼 LinkedIn: [sakshi-athare-63b505268](https://linkedin.com/in/sakshi-athare-63b505268)
+- 💻 GitHub: [@sakshiathare](https://github.com/sakshiathare)
 
 ---
-
-📝 License
-
-This project is open-source and free to use.
