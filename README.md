@@ -2,12 +2,6 @@
 
 Welcome to my personal developer portfolio built with **Angular**. It showcases my skills, projects, education, and contact information in a clean, responsive format.
 
- 🌐 Live Demo
-
-➡️ [Visit My Portfolio](https://your-username.github.io/portfolio/) 
-
----
-
  📁 Table of Contents
 
 - [About the Project](#about-the-project)
@@ -79,7 +73,7 @@ ng serve
 ### Deploy on GitHub Pages
 
 ```bash
-ng build --prod --base-href "https://your-username.github.io/portfolio/"
+ng build --prod --base-href "https://github.com/sakshiathare/sakshi-portfolio.git"
 npm install -g angular-cli-ghpages
 npx angular-cli-ghpages --dir=dist/your-app-name
 ```
